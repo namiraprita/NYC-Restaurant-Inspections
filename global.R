@@ -22,7 +22,7 @@ monthStart <- function(x) {
   as.Date(x)
 }
 
-df_ori <- read.csv("../data/DOHMH_New_York_City_Restaurant_Inspection_Results.csv")
+df_ori <- read.csv("DOHMH_New_York_City_Restaurant_Inspection_Results.csv")
 
 df <- df_ori %>%
   clean_names()
